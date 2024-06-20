@@ -1,0 +1,31 @@
+nav{
+    border-radius: 10px;    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#nav{
+    position: fixed;
+}
+.hero {
+    position: relative;
+    background: url('/bootie/herotest.jpeg') no-repeat center center/cover;
+    border-radius: 10px;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero .content {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+
+}
